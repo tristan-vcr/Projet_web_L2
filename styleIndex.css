@@ -23,7 +23,7 @@
 {
   height: 160px;
   width:145px;
-  margin-left: 28%;
+  margin-left: 30%;
 }
 .PGLigne
 {
@@ -100,11 +100,10 @@ footer
   background-color: #f5f7fa;
   color: #2e4a5c;
   padding: 0px;
-  position:absolute;
-  bottom:0;
   width:81%;
   height:50px;
-  margin-left: 19%;  
+  margin-left: 19%;
+  margin-top: 50px;  
 }
 .footerBC
 {
@@ -164,7 +163,6 @@ footer
   text-align: center;
   background-color: white;
   padding: 10px;
-}
 }
 
 ol
