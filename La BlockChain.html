@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+        <meta charset="utf-8">
+        <title>La BlockChain</title>
+        <link rel="stylesheet" href="styleIndex.css">
+    </head>
+    <body class="BlockChain">
+        <header>
+            <div class="Main">
+            <section class="PGauche">
+                <img class="LogoCrypto" src="Images/Logo.png">
+                <hr class="PGLigne">
+                <div  class="PGNavigation">
+                    <h4><a class="LienPGauche" href="Index.html">Bienvenue</a></h4>
+                    <h4><a class="LienPGauche" href="Qu'est-ce que les cryptos.html">Qu'est-ce que les cryptos ?</a></h4>
+                    <h4><a class="LienPGauche" href="La BlockChain.html">La BlockChain</a></h4>
+                    <h4><a class="LienPGauche" href="Qui sommes nous.html">Qui sommes-nous ?</a></h4>
+                    <h4><a class="LienPGauche" href="a_vous_de_jouer.html">A vous de jouer !</a></h4>
+    
+                </div>
+            </section>
+            </div>
+        </header>
+        <br>
+            <div class="Cadre1">
+            <h3>
+                La Blockchain
+            </h3>     
+            La blockchain (ou chaine de blocs) est une technologie de stockage et de transmission
+            de l'information. Cette technologie qui fonctionne sans organe de contrôle, est une base
+            de données qui contient tous les échanges émis depuis sa création. Le fait qu'elle ne
+            fonctionne pas avec un organe de contrôle ne signifie pas qu'elle n'est pas sécurisée 
+            ou contrôlée, bien au contraire. La gestion de ce contrôle est attribuée à tous les 
+            utilisateurs de la blockchain, qui peuvent à la création d'un nouveau bloc, vérifier la 
+            validité de celui-ci.On peut donc voir une blockchain comme un cahier, n'appartenant 
+            à personne et sur lequel tout le monde peut écrire, mais sur lequel rien ne peut être
+            effacé. <br>
+            <h4>Comment ça marche ?</h4>
+            Le principe de fonctionnement de la blockchain est très simple et il se décompose 
+            comme cela :
+            <ol>
+                <li>A initialiser une transaction</li>
+                <li>Un nouveau bloc est créé : Paitement de A vers B</li>
+                <li>Les utilisateurs (mineurs) reçvoivent l'information que ce bloc est créé</li>
+                <li>Ces derniers vérifient la validitéde ce bloc</li>
+                <li>S'il est valide, le bloc sera inclu dans la chaîne</li>
+                <li>Ce bloc étant visible par tous, tout le monde peut voir qu'un échange
+                    entre A et B a été fait, et que B possède maintenant la somme que A lui a transmis
+                </li>
+            </ol>
+            Ce fonctionnement à l'apprence simple, résulte de fonction mathématiques extrêment 
+            complexes qui permettent à la blockchain d'être, jusqu'à aujourd'hui en tout cas, inviolable.
+            Ces fonctions mathématiques (fonction de hachage) permettent au nouveau bloc d'être ajouté en toute sécurité
+            à travers ce que l'on appelle "a proof of work" (preuve de travail). Pour obtenir cette 
+            preuve, il est nécessaire de résoudre ces fonctions, et pour ce faire des milliers de mineurs,
+            grâce à des ordinateurs extrêmement puissants, tentent de trouver le plus rapidement possible la
+            solution. la complexité de la résolution de ces fonctions permet ainsi aux blocs, de ne pas être ajoutés trop vite.
+            Pour le bictoin par exemple, on parle de 10 minutes en moyenne pour l'ajout d'un bloc. De ce minage résultent deux bénéfices :
+            <ul>
+                <li>Le mineur qui trouve la solution obtient une rémunération dans la monnaie dans laquelle l'échange s'est fait
+                    (Bitcoin, Ethereum, Litcoin...)
+                </li>
+                <li>La preuve de travail permet à un bloc d'être valide et d'être ajouté à la chaîne. Cette même preuve
+                    de travail est ensuite ajouté dans le bloc suivant. Ce dans le but que quelqu'un qui souhaiterait 
+                    modifier le bloc 1 devrait recalculer la preuve de travail de ce bloc, mais devrait aussi recalculer 
+                    la preuve de travail du bloc 2, et dans ce laps de temps un bloc 3 a de grande chance d'apparaître. 
+                    Il est donc impossible d'avoir la puissance de calcul nécessaire pour modifier un bloc. 
+                </li>
+            </ul>      
+            Voici une vidéo explicative et détaillée du fonctionnement de la blockchain !<br><br>
+              <video width="800" height="400" controls>
+                <source src="Images/Blockchain Comment ça marche .mp4" type="video/mp4" />
+              </video>
+            </div><br>
+            <!--<footer class="footerBC">
+                <hr class="PGLigne_2">
+                <p>
+            ©2020 CryptoInfos
+                <a id="lienFooter" href="Conditions d'utilisation.html">Conditions d’utilisation</a>
+                <a id="lienFooter" href="Confidentialité.html">Confidentialité</a>                </p>
+            </footer>-->
+    </body>
+</html>
